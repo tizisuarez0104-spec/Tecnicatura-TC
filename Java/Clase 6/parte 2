@@ -1,0 +1,28 @@
+//public class BooleanPrintfExample {
+   //public static void main(String[] args) {
+       //boolean isGreen = true;
+      // System.out.printf("Apple is green: %b%n", isGreen); // lowercase
+      // System.out.printf("Apple is green: %B%n", isGreen); // uppercase
+     //  isGreen = false;
+      // System.out.printf("Apple is green: %b%n", isGreen);
+       //System.out.printf("Apple is green: %B%n", isGreen);
+
+            // Example of combining boolean expressions
+          //  boolean bothAdults = (age1 >= 18) && (age2 >= 18);
+           // System.out.println("Both are adults: " + bothAdults);
+
+       // } catch (Exception e) {
+       //     System.out.println("An unexpected error occurred: " + e.getMessage());
+       // } finally {
+           // scanner.close();
+       // }
+   // }
+
+// Algorismo: Es mayor de edad?
+var edad = 20; // Literal tener presente la inferencias de tipos 
+if (edad >= 18) {
+    System.out.println("Es mayor de edad");
+}
+ else {
+    System.out.println("Es menor de edad");
+

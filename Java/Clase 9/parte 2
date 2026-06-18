@@ -1,0 +1,27 @@
+public class EjercicioNumeros {
+    public static void main(String[] args) {
+        // Puedes cambiar este valor para probar cómo reacciona el código (ej: 1, 4, 6 o 10)
+        var numero = 2; 
+        var numeroTexto = "Número desconocido";
+
+        // Estructura de control múltiple (if - else if - else)
+        if (numero == 1) {
+            numeroTexto = "Número uno";
+        } else if (numero == 2) {
+            numeroTexto = "Número dos";
+        } else if (numero == 3) {
+            numeroTexto = "Número tres";
+        } else if (numero == 4) {
+            numeroTexto = "Número cuatro";
+        } else if (numero == 5) {
+            numeroTexto = "Número cinco";
+        } else if (numero == 6) {
+            numeroTexto = "Número seis";
+        } else {
+            numeroTexto = "Número no encontrado"; // Si no es del 1 al 6
+        }
+
+        // Imprimimos el resultado final en la consola
+        System.out.println("Resultado: " + numeroTexto);
+    }
+}

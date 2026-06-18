@@ -1,0 +1,4 @@
+//clase Scanner
+Scanner entrada = new Scanner(System.in);
+var usuario2 = "Milagros";
+System.out.println("usuario2 = " + usuario2);

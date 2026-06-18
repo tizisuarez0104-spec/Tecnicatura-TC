@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Ejercicio3 {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite nota de participación: ");
+        var participacion = Float.parseFloat(entrada.nextLine());
+
+        System.out.println("Digite nota del primer parcial: ");
+        var primerParcial = Float.parseFloat(entrada.nextLine());
+
+        System.out.println("Digite nota del segundo parcial: ");
+        var segundoParcial = Float.parseFloat(entrada.nextLine());
+
+        System.out.println("Digite nota del examen final: ");
+        var examenFinal = Float.parseFloat(entrada.nextLine());
+
+        // Multiplicamos cada nota por su porcentaje (10%, 25%, 25% y 40%)
+        // Ponemos la 'f' al final porque estamos usando números float
+        var calificacionFinal = (participacion * 0.10f) + (primerParcial * 0.25f) + (segundoParcial * 0.25f) + (examenFinal * 0.40f);
+
+        System.out.println("La calificación final es: " + calificacionFinal);
+
+        entrada.close();
+    }
+}

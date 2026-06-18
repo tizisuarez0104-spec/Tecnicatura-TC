@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+public class DetallesLibro {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        // Pedir el nombre del libro
+        System.out.print("Ingrese el nombre del libro: ");
+        scanner.nextLine(); // El usuario puede escribir cualquier cosa
+
+        // Pedir el autor del libro
+        System.out.print("Ingrese el nombre del autor: ");
+        scanner.nextLine(); // El usuario puede escribir cualquier cosa
+
+        // Mostrar la información del libro solicitado
+        String nombreLibro = "Como agua para chocolate";
+        String nombreAutor = "Laura Esquivel";
+
+        System.out.println(nombreLibro + " fue escrito por " + nombreAutor);
+
+        scanner.close();
+    }
+}

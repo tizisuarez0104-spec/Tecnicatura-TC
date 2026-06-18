@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Ejercicio7 {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        // Variables fijas y de cálculo
+        final int salario = 1000;
+        int comision = 150, venta;
+        float salarioMensual, ventaCarro, porcVenta, totalPrecio;
+
+        // Entrada de datos por consola
+        System.out.print("Digite la cantidad de carros vendidos: ");
+        venta = Integer.parseInt(entrada.nextLine());
+
+        System.out.print("Digite el precio de un carro: ");
+        ventaCarro = Float.parseFloat(entrada.nextLine());
+
+        // Procesamiento matemático de las ganancias
+        comision *= venta; // comision = comision * venta
+        totalPrecio = ventaCarro * venta;
+        porcVenta = totalPrecio * 0.05f; // El 'f' indica que el número es un float literal
+        salarioMensual = salario + comision + porcVenta;
+
+        // Salida
+        System.out.println("\nEl salario mensual es: " + salarioMensual);
+
+        entrada.close();
+    }
+}

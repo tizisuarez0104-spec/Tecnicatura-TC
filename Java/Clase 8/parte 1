@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Ejercicio {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        
+        // Declaración de variables tipo float
+        float nota1, nota2, nota3, suma;
+
+        // Lectura de datos
+        System.out.println("Digite las tres calificaciones: ");
+        nota1 = Float.parseFloat(entrada.nextLine());
+        nota2 = Float.parseFloat(entrada.nextLine());
+        nota3 = Float.parseFloat(entrada.nextLine());
+
+        // Operación
+        suma = nota1 + nota2 + nota3;
+
+        // Resultado
+        System.out.println("\nLa suma es: " + suma);
+        
+        entrada.close();
+    }
+}

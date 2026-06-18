@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Ejercicio1 {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite el número total de horas: ");
+        var horasTotales = Integer.parseInt(entrada.nextLine());
+
+        // Hacemos los cálculos matemáticos
+        var semanas = horasTotales / 168; 
+        var dias = (horasTotales % 168) / 24;
+        var horas = horasTotales % 24;
+
+        // Mostramos los resultados
+        System.out.println("Semanas: " + semanas);
+        System.out.println("Días: " + dias);
+        System.out.println("Horas: " + horas);
+
+        entrada.close();
+    }
+}

@@ -1,0 +1,84 @@
+//public class BooleanPrintfExample {
+   //public static void main(String[] args) {
+       //boolean isGreen = true;
+      // System.out.printf("Apple is green: %b%n", isGreen); // lowercase
+      // System.out.printf("Apple is green: %B%n", isGreen); // uppercase
+     //  isGreen = false;
+      // System.out.printf("Apple is green: %b%n", isGreen);
+       //System.out.printf("Apple is green: %B%n", isGreen);
+
+            // Example of combining boolean expressions
+          //  boolean bothAdults = (age1 >= 18) && (age2 >= 18);
+           // System.out.println("Both are adults: " + bothAdults);
+
+       // } catch (Exception e) {
+       //     System.out.println("An unexpected error occurred: " + e.getMessage());
+       // } finally {
+           // scanner.close();
+       // }
+   // }
+
+// Algorismo: Es mayor de edad?
+//var edad = 20; // Literal tener presente la inferencias de tipos 
+//if (edad >= 18) {
+  //  System.out.println("Es mayor de edad");
+//}
+ //else {
+   // System.out.println("Es menor de edad");
+
+//Conversion de tipo primitivo
+//var edad = 20; 
+//System.out.println("Edad: " + edad + 1));
+//var valorPi = Doble.parseDouble("3.1416");
+//System.out.println("Valor de Pi: " + valorPi);
+
+//Pedir un valor
+//var entrada = new Scanner(System.in);
+//System.out.print("Digite su edad: ");
+//edad = Integer.parseInt(entrada.nextLine());
+//System.out.println("edad = " + edad);
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // Creamos el objeto Scanner para leer los datos de la consola
+        Scanner entrada = new Scanner(System.in);
+
+        // Pedimos y leemos el nombre del libro
+        System.out.println("Digite el nombre del libro: ");
+        String nombre = entrada.nextLine();
+
+        // Pedimos y leemos el autor
+        System.out.println("Digite el autor del libro: ");
+        String autor = entrada.nextLine();
+
+        // Pedimos y leemos el código ISBN
+        System.out.println("Digite el código (ISBN): ");
+        String codigo = entrada.nextLine();
+
+        // Pedimos y leemos el ID convirtiendo el texto a entero (como en la foto)
+        System.out.println("Digite el id del libro: ");
+        int idLibro = Integer.parseInt(entrada.nextLine());
+
+        // Pedimos y leemos el precio convirtiendo a número decimal
+        System.out.println("Digite el precio del libro: ");
+        double precio = Double.parseDouble(entrada.nextLine());
+
+        // Pedimos y leemos si el envío es gratuito (acepta "true" o "false")
+        System.out.println("Confirme si el envío es gratuito (true/false): ");
+        boolean envioGratuito = Boolean.parseBoolean(entrada.nextLine());
+
+        
+        System.out.println("      DATOS DEL LIBRO       ");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Autor: " + autor);
+        System.out.println("Código (ISBN): " + codigo);
+        System.out.println("ID del libro: " + idLibro);
+        System.out.println("Precio: $" + precio);
+        System.out.println("¿Envío gratuito?: " + envioGratuito);
+        
+        // Cerramos el scanner (buena práctica en Java)
+        entrada.close();
+    }
+}

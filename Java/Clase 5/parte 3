@@ -1,0 +1,36 @@
+//public class Main {
+    //public static void main(String[] args) {
+        
+        //float numFloat = 3.4028235E38F;
+        //System.out.println("numFloat = " + numFloat);
+        //System.out.println("El valor minimo de float:" + Float.MIN_VALUE);
+        //System.out.println("El valor maximo de float:" + Float.MAX_VALUE);
+        
+        //double numDouble = 1.7976931348623157E308D;
+        //System.out.println("numDouble = " + numDouble);
+        //System.out.println("El valor minimo de double:" + Double.MIN_VALUE);
+        //System.out.println("El valor maximo de double:" + Double.MAX_VALUE);
+        
+   // }
+//}
+
+//public class Main {
+  //  public static void main(String[] args) {
+    //    
+        // Inferencia de tipos var y tipos primitivos
+        
+      //  var numEntero = 20; // Las literales sin punto automaticamente son de tipo int
+        //System.out.println("numEntero = " + numEntero);
+        
+      //  var numFloat = 10.0F; // Automaticamente con el punto se transforma en double, pero con la F se fuerza a float
+        //System.out.println("numFloat = " + numFloat);
+        
+        //var numDouble = 10.0;
+        //System.out.println("numDouble = " + numDouble);
+        
+   // }
+//}
+
+//tipos primitivos char 
+char miVariableChar = 'a';
+System.out.println("miVariableChar = " + miVariableChar);

@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Ejercicio2 {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite el valor de a: ");
+        var a = Double.parseDouble(entrada.nextLine());
+
+        System.out.println("Digite el valor de b: ");
+        var b = Double.parseDouble(entrada.nextLine());
+
+        // Usamos Math.pow para elevar al cuadrado (exponente 2)
+        var resultado = Math.pow((a + b), 2);
+
+        System.out.println("El resultado es: " + resultado);
+
+        entrada.close();
+    }
+}

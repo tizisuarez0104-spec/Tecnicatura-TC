@@ -1,0 +1,29 @@
+public class parte1 {
+    public static void main(String[] args){
+   
+    int miVariable = 10;
+    System.out.println(miVariable);
+    miVariable = 5;
+    System.out.println(miVariable);
+    //Tipo String
+    String miVariableCadena = "Bienvenidos";
+    System.out.println(miVariableCadena);
+    miVariableCadena = "Sigamos creciendo en programación";
+    System.out.println(miVariableCadena);
+    }  
+}
+
+//var miVariableEntera2 = 10;
+
+var miVariableCadena2 = "seguimos estudiando";
+System.out.println("miVariableEntera2 = " + miVariableEntera2);
+System.out.println("miVariableCadena2 = " + miVariableCadena2);
+//soutv - tab
+// Shift + F6
+
+var opcion = 45;
+
+var usuario = "Tiziana";
+var titulo = "Estudiante";
+System.out.println("union = "+ union);
+

@@ -1,0 +1,13 @@
+public class Leccion2 {
+    public static void main(String[] args) {
+        // En Java moderno se puede usar 'var' si la variable se inicializa inmediatamente
+        var condicion = false;
+
+        // Estructura if-else (Condicional doble)
+        if (condicion) {
+            System.out.println("Condición Verdadera"); // Se ejecuta si es true
+        } else {
+            System.out.println("Condición Falsa");     // Se ejecuta si es false
+        }
+    }
+}

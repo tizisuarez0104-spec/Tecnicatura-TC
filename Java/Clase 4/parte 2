@@ -1,0 +1,27 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        // --- Sección de Enteros Grandes (Comentada en la imagen) ---
+        /*
+        long numEnteroLong = 9223372036854775807L;
+        System.out.println("numEnteroLong = " + numEnteroLong);
+        System.out.println("Valor minimo del long:" + Long.MIN_VALUE);
+        System.out.println("Valor maximo del long:" + Long.MAX_VALUE);
+        */
+        
+        // --- Tipos Flotantes ---
+        
+        // Float (Precisión simple - requiere la 'F' al final)
+        float numFloat = 3.4020235E38F; 
+        System.out.println("numFloat = " + numFloat);
+        System.out.println("El valor minimo de float:" + Float.MIN_VALUE);
+        System.out.println("El valor maximo de float:" + Float.MAX_VALUE);
+        
+        // Double (Precisión doble - ideal para decimales grandes o precisos)
+        double numDouble = 10;
+        System.out.println("numDouble = " + numDouble);
+        System.out.println("El valor minimo de double:" + Double.MIN_VALUE);
+        System.out.println("El valor maximo de double:" + Double.MAX_VALUE);
+        
+    }
+}

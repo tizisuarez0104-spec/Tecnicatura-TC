@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class ControlSwitch {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        // Pedimos al usuario el número por consola
+        System.out.print("Digite un número del 1 al 4: ");
+        var numero = Integer.parseInt(entrada.nextLine());
+
+        // Inicializamos la variable de texto por defecto
+        var numeroTexto = "Valor desconocido";
+
+        // Estructura de control condicional Switch
+        switch (numero) {
+            case 1:
+                numeroTexto = "Número uno";
+                break; // Rompe el switch para que no siga ejecutando los de abajo
+            case 2:
+                numeroTexto = "Número dos";
+                break;
+            case 3:
+                numeroTexto = "Número tres";
+                break;
+            case 4:
+                numeroTexto = "Número cuatro";
+                break;
+            default:
+                numeroTexto = "Número no encontrado / Caso por defecto";
+                break;
+        }
+
+        // Mostramos el resultado en consola
+        System.out.println("Resultado: " + numeroTexto);
+
+        entrada.close();
+    }
+}

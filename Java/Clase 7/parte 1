@@ -1,0 +1,21 @@
+int num1 = 5, num2 = 4;
+var solucion = num1 + num2;
+System.out.println("La solucio de la suma = " + solucion);
+
+solucion = num1 - num2;
+system.out.println("La solucio de la resta = " + solucion);
+
+solucion = num1 * num2;
+system.out.println("La solucio de la multiplicacion = " + solucion);
+
+solucion = num1 / num2;
+system.out.println("La solucio de la division = " + solucion);
+
+var solucion2 = 3.4 / num2;
+system.out.println("La solucion2 resultado =" + solucion2);
+
+solucion2 = num1 % num2;
+system.out.println("Solcion = " + solucion);
+
+if (num1 % 2 == 0) 
+    System.out.println("Es un numero par");}
